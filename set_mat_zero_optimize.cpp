@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-
+//better approach
 vector<vector<int>>set_zero(vector<vector<int>>&mat,int n,int m){
     int col[m]={0};
     int row[n]={0};

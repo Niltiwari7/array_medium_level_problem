@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-
+//brute force because space complexity is o(n^2)
 vector<vector<int>>rotate_image(vector<vector<int>>&mat,int n,int m){
     vector<vector<int>>rotated(n,vector<int>(m));
     for(int i=0;i<n;i++){
